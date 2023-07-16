@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e760dd97-80c7-4546-8d06-e1d54ab2c3fe" name="Changes" comment="modules added">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/comman/logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-app/src/main/java/server/app/MainServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-app/src/main/java/server/app/Server.java" afterDir="false" />
+    <list default="true" id="e760dd97-80c7-4546-8d06-e1d54ab2c3fe" name="Changes" comment="ConnectionHandler inner class added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/main/java/client/app/ChatCLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/main/java/client/app/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/main/java/client/app/ClientSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/eventhandler/data/ChatEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/eventhandler/data/EventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-app/src/main/java/server/app/ConnectionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-app/src/main/java/server/app/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-app/src/main/java/server/app/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +57,45 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChatCLI">
+    <configuration name="ChatCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.app.ChatCLI" />
+      <module name="client-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.app.MainServer" />
+      <module name="server-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatCLI" />
+        <item itemvalue="Application.MainServer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +105,9 @@
       <option name="presentableId" value="Default" />
       <updated>1689486649827</updated>
       <workItem from="1689486651253" duration="3319000" />
-      <workItem from="1689497979903" duration="1860000" />
+      <workItem from="1689497979903" duration="15948000" />
+      <workItem from="1689521327118" duration="81000" />
+      <workItem from="1689524195093" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="modules added">
       <created>1689487186850</created>
@@ -66,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689487186850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Main Server created">
+      <created>1689501821329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689501821329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modules added" />
-    <option name="LAST_COMMIT_MESSAGE" value="modules added" />
+    <MESSAGE value="Main Server created" />
+    <MESSAGE value="ConnectionHandler inner class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConnectionHandler inner class added" />
   </component>
 </project>
